@@ -81,6 +81,11 @@
       "remove": true
     },
     {
+      "path": "priv-app/AssistantShell",
+      "description": "",
+      "remove": true
+    },
+    {
       "path": "app/YouTube",
       "description": "",
       "remove": true
@@ -152,6 +157,21 @@
     },
     {
       "path": "app/GoogleOneTimeInitializer",
+      "description": "",
+      "remove": true
+    },
+    {
+      "path": "app/Keep",
+      "description": "",
+      "remove": true
+    },
+    {
+      "path": "app/CalendarGoogle",
+      "description": "",
+      "remove": true
+    },
+    {
+      "path": "app/GoogleContacts",
       "description": "",
       "remove": true
     },
