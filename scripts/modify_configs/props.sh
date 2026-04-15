@@ -23,6 +23,19 @@ ADD_PROP_LIST=(
     "ro.media.enc.jpeg.quality=100"
     "ro.audio.silent=0"
     "ro.setupwizard.mode=DISABLE" # Skip SetupWizard (Temporary solution for microg)
+    
+    # Enable ADB withot enabling it specifically.
+    # You still have to allow your adb key on-device.
+    "persist.sys.usb.config=mtp,adb"
+    "persist.service.adb.enable=1"
+    "persist.service.debuggable=1"
+    "ro.debuggable=1"
+
+    # To force ADB without authentication for debugging,
+    # uncomment these lines!
+
+    # "ro.adb.secure=0"
+    # "ro.secure=0"
 )
 
 
